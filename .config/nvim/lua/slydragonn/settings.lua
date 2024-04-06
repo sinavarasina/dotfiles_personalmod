@@ -1,3 +1,5 @@
+-- link with sina.codingstyle.codingstyle
+require('sina.codingstyle.codingstyle').link()
 local global = vim.g
 local o = vim.o
 
@@ -9,7 +11,7 @@ global.maplocalleader = " "
 -- Editor options
 
 o.number = true
-o.relativenumber = true
+o.relativenumber = false
 o.clipboard = "unnamedplus"
 o.syntax = "on"
 o.autoindent = true

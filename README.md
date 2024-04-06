@@ -72,7 +72,7 @@
 Clone the repository.
 
 ```bash
-git clone https://github.com/slydragonn/dotfiles.git
+git clone https://github.com/sinavarasina/dotfiles_personalmod.git
 ```
 
 Move nvim directory from `/dotfiles/.config/` to

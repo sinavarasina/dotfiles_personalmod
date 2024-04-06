@@ -1,3 +1,6 @@
+-- Add or link sina/codingstyle/anotherkeymaps.lua
+require("sina.codingstyle.AnotherKeymaps").link()
+
 local function map(mode, lhs, rhs)
 	vim.keymap.set(mode, lhs, rhs, { silent = true })
 end
